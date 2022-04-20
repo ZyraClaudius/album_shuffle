@@ -1,8 +1,11 @@
+//Imports
 import React from 'react';
 import {Spotify} from '../../util/Spotify';
 import './Authenticator.css';
 
+//Component class
 export class Authenticator extends React.Component {
+    //This is a simple component with just a render method. All self-explanatory.
     render () {
         return (
             <div className="Authenticator">

@@ -79,6 +79,24 @@ img {
     animation-duration: 5s;
 }
 
+#againContainer {
+    width: 100vw;
+}
+
+#again {
+    text-decoration: underline;
+    font-size: 2em;
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    color: rgb(0,0,255);
+    background-color: rgba(0,0,0,0);
+}
+
+#again:hover {
+    text-decoration: none;
+}
+
 a {
     display: block;
     width: 100vw;

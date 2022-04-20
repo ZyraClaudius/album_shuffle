@@ -1,3 +1,4 @@
+//This is a very simple component. It is simply a large input box. Autofocus is on since we need the search to continue even after the results have begun to load
 import React from 'react';
 import './Search.css';
 
