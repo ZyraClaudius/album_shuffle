@@ -162,7 +162,7 @@ export class Shuffle extends React.Component {
         let newScroll = await this.props.getAlbumScroll();
         //If the new scroll is of length zero then this means the user just played the only album left in the category, so we set our "albums" state to an empty array to display a relevant message (see line 86)
         if(newScroll.length===0) {
-            this.setState({albums:newScroll});
+            this.setState({albums:newScroll,scrolling:false});
             return;
         }
         //Otherwise we can assume the list is of length 20 so we selet the second-to-last one as the "chosen" album and set the albums state to our new 20, the albumLink state to the link to our new album on Spotify, and the scrolling state to false so the user may shuffle again

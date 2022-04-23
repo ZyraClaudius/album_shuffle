@@ -171,7 +171,7 @@ export class Spotify {
 
     //This gets albums by an artist by the artists Spotify id (as argument)
     static async getArtistAlbums(id) {
-        //We initialize our albums variable and, as always, if we already have some albumsRemaining, we just return these
+        //We initialize our albums variable and, as always, if we already have some remainingAlbums, we just return these
         let albums;
         if(remainingAlbums) {
             albums = remainingAlbums;
