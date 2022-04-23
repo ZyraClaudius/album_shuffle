@@ -6,7 +6,7 @@ let remainingAlbums;
 
 //My clientID from Spotify and the redirectURI, which I store in a global variable to make it easy to change so I can run it on the development server and deploy it to surge.
 const clientID = '2dc398de96b14c44b2ba54f13dcb1e6e';
-const redirectURI = 'http://localhost:3000';
+const redirectURI = 'https://albumshuffle.netlify.app';
 
 export class Spotify {
 
